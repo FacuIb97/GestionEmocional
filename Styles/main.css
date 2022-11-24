@@ -1,0 +1,233 @@
+*{margin: 0%;
+    padding: 0%;
+    font-family: "Montserrat", Sans-serif;
+}
+
+header{
+    background-color: rgb(0,133,103);
+}
+
+.loguito{
+    background-color: red;
+}
+
+nav {
+    background-color: #FFF9D9;
+	font-size: 20px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    background-color: rgb(0,133,103);
+    white-space: nowrap;
+    padding: 7px;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+    background-color:rgb(0,133,103);
+    
+}
+.menu-horizontal > li:hover{
+    background-color:rgb(0,133,103) ;
+}
+
+.menu-horizontal > li > a{
+	display: block;
+	padding: 8px 20px;
+	color: rgb(255,249,195);
+	text-decoration: none;
+}
+
+
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 287px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: #494c4f;
+	text-decoration: none;
+    padding: 4px 16px;
+    transition: .4s;
+    text-shadow: none;
+    border-left: 8px solid transparent;
+    justify-content: space-between;
+    line-height: 20px;
+    font-size: 10px;
+    font-style: inherit;
+    white-space: nowrap;
+    background-color: white;
+}
+ .login{
+    color: rgb(0,0,0)!important;
+    background-color:rgb(255,249,217);
+ }
+
+.inicio{
+    background-color:rgb(255,249,217);
+    color: #008567 !important ;
+}
+
+.grid-layout{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    display: grid;
+    padding: 80px;
+    margin: auto;
+    grid-template-columns: 'angeles dani';
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(226, 251, 243);
+}
+
+
+body{
+    background-color: rgb(198,233,217);
+}
+
+.dani {
+    padding: auto;
+    grid-area: dani;
+}
+
+.angeles {
+    grid-area: angeles;
+}
+
+.boton1{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80px;
+    background: #008567;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.boton2{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80px;
+    background: #008567;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.boton1:hover{
+    background: #024434;
+}
+
+.boton2:hover{
+    background: #024434;
+}
+
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background-color:#2E406E;
+    border-radius: 1rem 0 0 0;
+}
+
+.icon-instagram {
+    background-color: #3F60A5;
+}
+
+.icon-youtube {
+    background-color: #e83028;
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+     padding-right: 3rem;
+     border-radius: 1rem 0 0 1rem;
+     box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+.turnoHorarios{
+    display: flex;
+    position: relative;
+    top: 20px;
+    right: 22%;
+}
+
+.footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(0,133,103);
+    padding: auto;
+    margin: auto;
+}
+
+.datos{
+    padding: 15px;
+    text-align: start;
+}
+
+.nombreContacto {
+    padding: 10px;
+    font-size: 20px;
+}
+
+h3{
+    color: rgb(25, 69, 5);
+}
+
+a:link{
+    color: #e83028;
+    text-decoration: none;
+}
+
+p{
+    font-size: 17px;
+}
